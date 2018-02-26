@@ -1,0 +1,15 @@
+Data Wrangling
+
+The data for this project came from the Social Security Administration 
+and is presented to the public as an act of transparency and to use for 
+various research purposes.  As a result, there is a maintainer of this 
+data to remove errors and keep it tidied up.  As a result, there were 
+only two state codes with missing values, Puerto Rico and Guam.  Since 
+there was hardly any data to either of these rows they were omitted 
+from the final results.
+
+Up until this point, I haven’t found any outliers in the data.  Future 
+outliers will be incorporated into the data.
+
+Once imported, the file was separated out first into the sets of ten 
+region codes.  These regions were then broken up further into dataframes by state.
